@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:background="#cccccc"
+        android:id="@+id/rv_category"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <include
+        android:visibility="gone"
+        layout="@layout/loadinglayout"
+        android:id="@+id/loading"/>
+    <include
+        android:visibility="gone"
+        layout="@layout/noitemlayout"
+        android:id="@+id/noitem"/>
+
+</RelativeLayout>
